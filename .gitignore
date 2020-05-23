@@ -1,0 +1,11 @@
+# Mac and IDE files
+.DS_Store
+.vscode/
+.idea/
+
+# Generated files
+*.pyc
+*.swp
+
+# Virtual Environments
+venv/
