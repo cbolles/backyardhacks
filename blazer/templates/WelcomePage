@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TrailBlazer</title>
+
+</head>
+<style>
+body {
+  background-image: url('/static/trails.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+<center>
+    <h1 align="center"> Welcome  to TrailBlazer! </h1>
+    <p align="center" style="font-size:125%;">We aim to provide you with the complete experience of
+    travelling during this time. Give us an idea of where you would like to go
+    and we will supplement you with the best route and possible stops on the way!</p>
+    <br>
+    <fieldset style="width:500px">
+        <legend style="font-size:120%"> You can either log in or proceed as a guest</legend>
+        <div>
+            <a href="/LogIn"><button>Log In</button></a>
+            <a href="/Guest"><button>Guest User</button></a>
+        </div>
+    </fieldset>
+</center>
+</div>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log In</title>
+
+</head>
+<style>
+body {
+  background-image: url('/static/road.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+<center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<form action="action_page.php" method="post">
+  <div class="container">
+    <label><b>Username</b></label>
+    <input type="text" placeholder="Username" name="uname" required>
+    <br>
+      <br>
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Password" name="psw" required>
+    <br>
+      <br>
+    <button type="submit">Login</button>
+  </div>
+
+</form>
+</center>
+</div>
+</html>
