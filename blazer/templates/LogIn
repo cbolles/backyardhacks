@@ -36,7 +36,7 @@ body {
     <input type="password" placeholder="Password" name="psw" required>
     <br>
       <br>
-    <button type="submit">Login</button>
+      <a href="/Survey"><button type="submit">Login</button></a>
   </div>
 
 </form>

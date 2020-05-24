@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+</head>
+<body background="/static/contour.jpg">
+<center>
+    <h1 style="font-family:verdana;">Plan Your Next Trip</h1>
+</center>
+<br>
+<br>
+<form action="/action_page.php">
+    <label for="from">Start Location:</label>
+    <input type="text" id="from" name="from">
+    <label for="to">Final Destination:</label>
+    <input type="text" id="to" name="to">
+    <fieldset id="feat">
+    <legend>Features: </legend>
+        <div>
+            <input type="radio" name="feat" value="hike" checked> Hiking <br>
+            <input type="radio" name="feat" value="camp"> Camping <br>
+            <input type="radio" name="feat" value="swim"> Swimming <br>
+            <input type="radio" name="feat" value="fish"> Fishing <br>
+            <input type="radio" name="feat" value="star"> Stargzing <br>
+        </div>
+    </fieldset>
+    <label for="miles">Maximum distance from route: </label>
+    <select id="miles" name="miles">
+        <option value="1">1 mile</option>
+        <option value="2">5 miles</option>
+        <option value="10">15 miles</option>
+        <option values="25">25 miles</option>
+        <option values="50">50 miles</option>
+    </select>
+</form>
+</body>
+</html>

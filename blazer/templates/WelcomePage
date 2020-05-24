@@ -23,7 +23,7 @@ body {
         <legend style="font-size:120%"> You can either log in or proceed as a guest</legend>
         <div>
             <a href="/LogIn"><button>Log In</button></a>
-            <a href="/Guest"><button>Guest User</button></a>
+            <a href="/Survey"><button>Guest User</button></a>
         </div>
     </fieldset>
 </center>
